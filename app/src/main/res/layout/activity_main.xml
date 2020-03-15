@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="text1save"
+    android:onClick="text1"
+    />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="讀取資料"
+        android:onClick="text2"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="儲存進階"
+        android:onClick="text3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抓出資料"
+        android:onClick="text4"
+        />
+    <Button
+        android:id="@+id/test5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text5"
+        android:onClick="text56"
+        />
+    <Button
+        android:id="@+id/test6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text6"
+        android:onClick="text56"
+        />
+
+
+
+</LinearLayout>
